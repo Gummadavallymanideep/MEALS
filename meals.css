@@ -1,0 +1,169 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+    color:white;
+    background-image: url("https://images.unsplash.com/photo-1602081115720-72e5b0a254b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body::-webkit-scrollbar { 
+    display: none; 
+}
+
+/* Body header*/ 
+#body-header{
+    height: 20vh;
+    padding-top: 1rem;
+    /*background-color: blanchedalmond;*/
+}
+
+/* Horizontal Lists */
+
+
+.bars{
+    color: whitesmoke;
+    margin: 0;
+    margin-right: 5%;
+    display: none;
+}
+
+.bars i {
+    font-size: 2rem;
+}
+
+.dropdown-list{
+    margin: 0;
+    display: none;
+    background-color: rosybrown;
+    box-shadow: 0px 4px 8px 1px #535547;
+}
+
+.dropdown-list ul{
+    margin: 0.2rem 0.2rem;
+    text-align: left;
+    padding: 0px 0.8rem;
+}
+
+.dropdown-menu:hover .dropdown-list{
+    display: block;
+    position: absolute;
+    right: 3%;
+}
+
+.dropdown-list li{
+    margin: 0.4rem 0px;
+}
+
+.no-list-style{
+    list-style: none;
+}
+
+.no-list-style li {
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.no-list-style li a{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+
+.horizontal-list {
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 15px 15px 0px;
+}
+
+.nav-menu li{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.horizontal-list li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.horizontal-list li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid black;
+}
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+@media only screen and (max-width: 770px) {
+    .bars{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #display{
+        display: none;
+    }
+
+    .text-center li a img{
+        text-align: left;
+    }
+}
+
+/*  Container  */
+
+section{
+    border: 4px solid white;
+    border-radius: 10px;
+    padding: 40px;
+    width: 85%;
+    height: auto;
+    margin:  auto;
+}
+
+.image img{
+    height: 40px;
+    width: 40px;
+}
+
+.color{
+    color:blanchedalmond;
+}
+
+/* footer */
+
+#body-footer{
+    height: 20vh;
+    padding-bottom: 1rem;
+}
+
+.text-left{
+    text-align: lefts;
+}
+
+#foot-color{
+    color: white;
+}
+
+.nolist-style{
+    list-style: none;
+}
+
+.nolist-style li {
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.nolist-style li a{
+    list-style: none;
+    color: whitesmoke;
+    text-decoration: none;
+}
