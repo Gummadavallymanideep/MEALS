@@ -1,6 +1,6 @@
 # MEALS
 
-[HOSTED LINK]  (
+[HOSTED LINK]  (https://gummadavallymanideep.github.io/MEALS/)
 
 
 In this project we are going to create the web page of the to know the info of the TheMealsDB.
